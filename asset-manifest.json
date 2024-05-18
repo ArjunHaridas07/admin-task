@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/admin-task/static/css/main.3cbd30e4.css",
+    "main.js": "/admin-task/static/js/main.8dc16c5e.js",
+    "index.html": "/admin-task/index.html",
+    "main.3cbd30e4.css.map": "/admin-task/static/css/main.3cbd30e4.css.map",
+    "main.8dc16c5e.js.map": "/admin-task/static/js/main.8dc16c5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cbd30e4.css",
+    "static/js/main.8dc16c5e.js"
+  ]
+}
