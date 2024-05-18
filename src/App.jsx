@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import RegistrationForm from './Components/RegistrationForm';
 import LoginForm from './Components/LoginForm';
 import Dashboard from './Components/Dashboard';
@@ -55,8 +55,9 @@ const App = () => {
 
   const handleLogout = () => {
     setLoggedInUser(null);
-    window.location.href = '/register';
+    return <Navigate to="/register" />;
   };
+  
 
   return (
     <Router> 
